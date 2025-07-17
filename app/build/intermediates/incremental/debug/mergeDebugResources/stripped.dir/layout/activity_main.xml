@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#000000"
+    android:padding="24dp">
+
+    <Switch
+        android:id="@+id/toggleA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enable Preset A (0–25%)"
+        android:textColor="#FFFFFF" />
+
+    <Switch
+        android:id="@+id/toggleB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enable Preset B (26–75%)"
+        android:textColor="#FFFFFF" />
+
+    <Switch
+        android:id="@+id/toggleC"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enable Preset C (76–99%)"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/testA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Test Preset A" />
+
+    <Button
+        android:id="@+id/testB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Test Preset B" />
+
+    <Button
+        android:id="@+id/testC"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Test Preset C" />
+
+</LinearLayout>

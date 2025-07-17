@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.chargemate.app-mergeDebugResources-19:/values-hdpi-v4/values-hdpi-v4.xml",
+            "map": [
+                {
+                    "source": "/workspace/.gradle/caches/8.14.2/transforms/4bfc84c00d8aeb827c1e46fe4acc8eec/transformed/appcompat-1.6.1/res/values-hdpi-v4/values-hdpi-v4.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "6",
+                        "endColumns": "13",
+                        "endOffsets": "327"
+                    }
+                }
+            ]
+        }
+    ]
+}
